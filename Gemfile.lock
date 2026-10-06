@@ -126,7 +126,7 @@ GEM
       activesupport (>= 6.1)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    inertia_rails (3.21.2)
+    inertia_rails (3.22.0)
       railties (>= 6)
     io-console (0.9.4)
     irb (1.18.0)
@@ -364,7 +364,7 @@ DEPENDENCIES
   bundlebun
   capybara
   debug
-  inertia_rails (~> 3.21)
+  inertia_rails (~> 3.22)
   jbuilder
   kamal
   propshaft
