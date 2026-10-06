@@ -36,7 +36,7 @@ export default function ComponentAlert() {
           Delete a file
         </button>
 
-        <button type="button" className="button margin-bs-m" onClick={confirmPlain}>
+        <button type="button" className="button margin-bs" onClick={confirmPlain}>
           Confirm with the defaults
         </button>
 

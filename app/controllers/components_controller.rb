@@ -29,6 +29,10 @@ class ComponentsController < ApplicationController
     render inertia: "components/button"
   end
 
+  def haptic
+    render inertia: "components/haptic"
+  end
+
   def menu
     render inertia: "components/menu"
   end

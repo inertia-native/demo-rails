@@ -12,6 +12,7 @@ Rails.application.routes.draw do
     collection do
       get :alert
       get :button
+      get :haptic
       get :menu
       get :overflow
     end

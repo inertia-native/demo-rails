@@ -139,6 +139,13 @@
       <path fill="currentColor" d="M18.682,17.2h-1.91a1,1,0,1,0,0,2h1.91a1,1,0,0,0,0-2Z"/>
     </symbol>
 
+    <symbol id="vibrate-bold" viewBox="0 0 24 24">
+      <rect x="8" y="2.5" width="8" height="19" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M6 8.5A5 5 0 0 0 6 15.5"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M3.25 6.25A8 8 0 0 0 3.25 17.75"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M18 8.5A5 5 0 0 1 18 15.5"/>
+      <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M20.75 6.25A8 8 0 0 1 20.75 17.75"/>
+    </symbol>
     <symbol id="warning-bold" viewBox="0 0 24 24">
       <path fill="currentColor" d="M23.881,21.773l-11-20.533a1.042,1.042,0,0,0-1.762,0l-11,20.533A1,1,0,0,0,1,23.246H23a1,1,0,0,0,.881-1.473Zm-2.755-.648a.248.248,0,0,1-.214.121H3.088a.25.25,0,0,1-.22-.368L11.78,4.241a.249.249,0,0,1,.44,0l8.912,16.637A.248.248,0,0,1,21.126,21.125Z"/>
       <path fill="currentColor" d="M12.25,15.713a1,1,0,0,0,1-1V9.454a1,1,0,0,0-2,0v5.259A1,1,0,0,0,12.25,15.713Z"/>

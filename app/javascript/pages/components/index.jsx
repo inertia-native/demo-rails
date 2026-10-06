@@ -16,6 +16,7 @@ export default function ComponentsIndex() {
           <ListItem href="/components/alert" icon="warning-bold" name="Alert example" description="Confirm an action with a native dialog." />
           <ListItem href="/components/button" icon="smartphone-bold" name="Button example" description="Show a button in the native navigation bar." />
           <ListItem href="/components/new" icon="text-input-bold" name="Form example" description="Submit a form." />
+          <ListItem href="/components/haptic" icon="vibrate-bold" name="Haptic example" description="Play native haptic feedback." />
           <ListItem href="/components/menu" icon="menu-bold" name="Menu example" description="Display a menu of options." />
           <ListItem href="/components/overflow" icon="overflow-bold" name="Overflow menu example" description="Display an overflow menu." />
         </div>
