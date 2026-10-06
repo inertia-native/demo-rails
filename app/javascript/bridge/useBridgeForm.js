@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { useBridgeComponent } from 'inertia-hotwire-native/react'
+import { useBridgeComponent } from 'inertia-native/react'
 
 /**
  * Wires an Inertia form to the native `form` bridge component: asks native to

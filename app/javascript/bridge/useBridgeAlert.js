@@ -1,5 +1,5 @@
 import { useCallback, useRef } from 'react'
-import { useBridgeComponent } from 'inertia-hotwire-native/react'
+import { useBridgeComponent } from 'inertia-native/react'
 
 /**
  * Wraps the native `alert` bridge component. Call `show` to present a native

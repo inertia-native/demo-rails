@@ -1,7 +1,7 @@
 import { createInertiaApp } from '@inertiajs/react'
 
 import Layout from '../components/Layout'
-import { initHotwireNative } from 'inertia-hotwire-native'
+import { initHotwireNative } from 'inertia-native'
 
 // Install the Hotwire Native bridge (window.Turbo shim). Inert in a regular
 // browser; connects to the native turbo.js adapter inside Hotwire Native.

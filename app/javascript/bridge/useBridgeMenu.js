@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { useBridgeComponent } from 'inertia-hotwire-native/react'
+import { useBridgeComponent } from 'inertia-native/react'
 
 /**
  * Wraps the native `menu` bridge component. Call `display` to open a native
