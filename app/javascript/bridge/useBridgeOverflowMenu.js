@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { useBridgeComponent } from 'inertia-hotwire-native/react'
+import { useBridgeComponent } from 'inertia-native/react'
 
 /**
  * Registers the native `overflow-menu` component: shows a 3-dot button in the

@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     rails(),
   ],
-  // inertia-hotwire-native is linked via a file: dependency. Dedupe the shared
+  // inertia-native imports @inertiajs/core and react itself. Dedupe the shared
   // singletons so the package and the app use one Inertia router and one React.
   resolve: {
     dedupe: ['@inertiajs/core', '@inertiajs/react', 'react', 'react-dom'],
