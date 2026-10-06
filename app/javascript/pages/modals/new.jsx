@@ -19,9 +19,9 @@ export default function ModalNew() {
         <h3 className="margin-bs-xl margin-be-l text-title">Historical Navigation</h3>
 
         <div className="formatted-list formatted-list--top-level">
-          <ListItem onClick={() => window.history.back()} icon="arrow-down-bold" name="Recede navigation" description="Dismiss the modal." />
-          <ListItem onClick={() => router.reload()} icon="arrow-clockwise-bold" name="Refresh navigation" description="Refresh this screen." />
-          <ListItem onClick={() => {}} icon="stop-bold" name="Resume navigation" description="Do nothing." />
+          <ListItem onClick={() => router.post('/modal/recede')} icon="arrow-down-bold" name="Recede navigation" description="Dismiss the modal." />
+          <ListItem onClick={() => router.post('/modal/refresh')} icon="arrow-clockwise-bold" name="Refresh navigation" description="Refresh this screen." />
+          <ListItem onClick={() => router.post('/modal/resume')} icon="stop-bold" name="Resume navigation" description="Do nothing." />
         </div>
       </div>
     </>

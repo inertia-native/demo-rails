@@ -28,6 +28,9 @@ Rails.application.routes.draw do
   resource :modal, only: %i[new show] do
     collection do
       get :replace
+      post :recede
+      post :refresh
+      post :resume
     end
   end
 
