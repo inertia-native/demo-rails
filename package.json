@@ -8,7 +8,7 @@
   "dependencies": {
     "@inertiajs/react": "^3.4.0",
     "@vitejs/plugin-react": "^6.0.2",
-    "inertia-native": "0.1.0-beta.2",
+    "inertia-native": "1.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
