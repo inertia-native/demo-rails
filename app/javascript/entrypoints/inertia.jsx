@@ -1,13 +1,13 @@
 import { createInertiaApp } from '@inertiajs/react'
 
 import Layout from '../components/Layout'
-import { initHotwireNative } from 'inertia-native'
+import { initInertiaNative } from 'inertia-native'
 
 // Install the Hotwire Native bridge (window.Turbo shim). Inert in a regular
 // browser; connects to the native turbo.js adapter inside Hotwire Native.
 // Debug logging is on in dev builds and inside the native web view (where the
 // build is "production" but the bridge trace is still useful).
-initHotwireNative({ debug: true })
+initInertiaNative({ debug: true })
 
 createInertiaApp({
   pages: "../pages",
