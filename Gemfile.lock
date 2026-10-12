@@ -87,15 +87,12 @@ GEM
     brakeman (8.1.0)
       racc
     builder (3.3.0)
-    bundlebun (0.5.0.1.3.14-aarch64-linux-gnu)
+    bundlebun (0.5.1.1.4.2-aarch64-linux-gnu)
       json (~> 2.0)
-      zeitwerk (~> 2.5)
-    bundlebun (0.5.0.1.3.14-arm64-darwin)
+    bundlebun (0.5.1.1.4.2-arm64-darwin)
       json (~> 2.0)
-      zeitwerk (~> 2.5)
-    bundlebun (0.5.0.1.3.14-x86_64-linux-gnu)
+    bundlebun (0.5.1.1.4.2-x86_64-linux-gnu)
       json (~> 2.0)
-      zeitwerk (~> 2.5)
     capybara (3.40.0)
       addressable
       matrix
